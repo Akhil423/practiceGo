@@ -1,0 +1,2 @@
+# practiceGo
+go practice
