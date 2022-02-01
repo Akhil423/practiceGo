@@ -1,10 +1,10 @@
-package main
+package practice
 
 import (
 	"fmt"
 )
 
-func main() {
+func Variables() {
 	var aString string = "This is my go practice"
 
 	fmt.Println(aString)
