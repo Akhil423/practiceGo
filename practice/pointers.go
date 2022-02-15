@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func pointers() {
+func Pointers() {
 
 	anInt := 45
 	pointer := &anInt

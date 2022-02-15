@@ -93,3 +93,20 @@ func Mapss() {
 	}
 
 }
+
+func Structs() {
+
+	langObj := Lang{"Telugu", "Telangana"}
+
+	fmt.Println(langObj)
+
+	fmt.Printf("%+v", langObj)
+
+	fmt.Println(langObj.Name)
+}
+
+// Lang is struct
+type Lang struct {
+	Name  string
+	State string
+}
